@@ -61,7 +61,7 @@ header{
   /*color: #ffffff;*/
 }
 #showcase .heroimage {
-  background:url('../../images/cover-3d.jpg') no-repeat center;
+  background:url('../images/cover-3d.jpg') no-repeat center;
   background-size: cover;
   height: 400pt;
   border: 5pt solid #283874;
