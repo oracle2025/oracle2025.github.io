@@ -1,0 +1,154 @@
+body{
+  /*font: 15px/1.5 Arial, Helvetica, sans-serif;*/
+  /* Source: https://css-tricks.com/snippets/css/font-stacks/ */
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin:0;
+/*  background-color: #f4f4f4;*/
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+/*header, div, footer, section {
+	border: 1pt solid black;
+}*/
+a:link {
+	color: #283874;
+	text-decoration: underline;
+}
+.content__gdprLegal {
+	margin-top: 40pt;
+};
+/* Header */
+header{
+  /*background: #353637;*/
+  /*color: #ffffff;*/
+  padding-top: 30pt;
+  min-height: 70pt;
+  border-bottom: #32a0c2 3pt solid;
+}header a{
+  /*color: #ffffff;*/
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}header li{
+  float: left;
+  display: inline;
+  padding: 0 20pt 0 20pt;
+}header #branding{
+  float: left;
+}header #branding h1{
+  margin: 0;
+}header nav{
+  float: right;
+  margin-top: 10pt;
+}header .highlight, header .current a{
+  /*color: #32a0c2;*/
+  font-weight: bold;
+}header a:hover{
+  /*color: #cccccc;*/
+  font-weight: bold;
+}
+/* Showcase */
+#showcase {
+  min-height: 400pt;
+  text-align: left;
+  /*color: #ffffff;*/
+}
+#showcase .heroimage {
+  background:url('../../images/cover-3d.jpg') no-repeat center;
+  background-size: cover;
+  height: 400pt;
+  border: 5pt solid #283874;
+}
+#showcase h1{
+  margin-bottom: 10pt;
+}
+#showcase p{
+  font-size: 20px;
+}
+#showcase ul{
+  font-size: 20px;
+}
+/* Newsletter */
+#newsletter{
+  padding: 15pt;
+  /*color: #ffffff;*/
+  /*background: #353637;*/
+}#newsletter h1{
+  float: left;
+}#showcase form{
+  margin-top: 15pt;
+}
+.authorimage {
+  width: 100pt;
+    height: 100pt;
+    border-radius: 100%;
+    background:url(../images/richard-spindler.png) center;
+}
+#showcase input[type="email"]{
+  padding: 4pt;
+  height: 25pt;
+  width: 240pt;
+  border: 1pt solid #283874;
+  font-size: 20px;
+}.button_1{
+  font-size: 20px;
+  height: 38pt;
+  background: #283874;
+  border: 0;
+  padding-left: 20pt;
+  padding-right: 20pt;
+  color: white;
+}
+.unsubscribehint {
+	padding-top: 20pt;
+}
+footer{
+  padding: 20pt;
+  margin-top: 20pt;
+  /*color: #ffffff;*/
+  /*background-color: #32a0c2;*/
+  text-align: center;
+}
+
+#showcase .box {
+	float: left;
+	box-sizing: border-box;
+	padding: 10pt;
+	width: 50%;
+}
+#boxes {
+	margin-top: 20pt;
+}
+#boxes .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+@media(max-width: 768pt){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #showcase .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  } 
+ header{
+    padding-bottom: 20pt;
+  }  #showcase h1{
+    margin-top: 40pt;
+  }  #newsletter button {
+    display: block;
+    width: 100%;
+  }  #newsletter form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5pt;
+  }
+}
