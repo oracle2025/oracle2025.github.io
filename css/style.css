@@ -21,6 +21,9 @@ a:link {
 .content__gdprLegal {
 	margin-top: 40pt;
 };
+.mce_inline_error {
+	color: red;
+}
 /* Header */
 header{
   /*background: #353637;*/
